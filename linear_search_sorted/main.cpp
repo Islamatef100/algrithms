@@ -1,5 +1,4 @@
-//linear search sorted.
-/* the diference between sorted or not that the sorted linear search id more smart becouse i will check if ellement==arr[i] and if element>arr[i] becouse if element>arr[] then element not xist ant return from serch.*/
+
 #include <iostream>
 using namespace std;
 template<class Newtype>
