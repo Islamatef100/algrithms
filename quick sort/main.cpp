@@ -1,8 +1,3 @@
-// code of algorithm quick sort.from mohamed shoshan.
-// in this algorithm i make every element smaller from next element and larger from previos element.not from enternet.
-//this algorithm i write it
-//o(n^2)
-//not smart ass bublle sort .
 #include <iostream>
 using namespace std;
 template<class ItemType>//to make code more valiable for any type
