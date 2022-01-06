@@ -1,6 +1,4 @@
-//linear search
-//i write the code from my understanding the algorithm and i can write it by any data type not just array.
-//o(n);
+
 #include <iostream>
 using namespace std;
 bool linear_search(int arr[],int size,int data)
