@@ -1,4 +1,4 @@
-//mohamed shoshan course data strucure.
+
 #include <iostream>
 #include<algorithm>
 using namespace std;
