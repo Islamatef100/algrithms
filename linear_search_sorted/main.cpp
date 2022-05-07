@@ -7,7 +7,7 @@ bool linear_search(Newtype arr[],int size,Newtype data)
     int i=0;
    // bool exist_or_not=false;
     for(i;;i++)
-    /* i removed i<size becouse i added the element in the end of array by whn i creat array iincreases the size by 1 and in for loab it will  fint the ellement after for loap i check if i==size the the code found the element which i added it so the element in this condition will not exist.*/
+    /* i removed (i<size) becouse i added the element in the end of array and increases the size by 1 and in for loab it will  find the ellement after for loap i check if i==size the the code found the element which i added it so the element in this condition will not exist.*/
     {
         if(arr[i]==data)
         {  // exist_or_not=true;
