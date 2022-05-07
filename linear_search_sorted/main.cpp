@@ -6,6 +6,12 @@ bool linear_search(Newtype arr[],int size,Newtype data)
 {
     int i=0;
    // bool exist_or_not=false;
+    // this for making algorithm  more smart.
+     if(data<arr[0])
+        {
+            i=size;//to make algorithm know that this ellement not exist.
+            return 0;
+        }
     for(i;;i++)
     /* i removed (i<size) becouse i added the element in the end of array and increases the size by 1 and in for loab it will  find the ellement after for loap i check if i==size the the code found the element which i added it so the element in this condition will not exist.*/
     {
@@ -13,11 +19,7 @@ bool linear_search(Newtype arr[],int size,Newtype data)
         {  // exist_or_not=true;
             break;
         }
-        if(data<arr[i])
-        {
-            i=size;//to make algorithm know that this ellement not exist.
-            break;
-        }
+       
     }
     return 1 ?i!=size:0;// i mean here if(i!=size)return 1 else return 0;
 }
